@@ -65,7 +65,7 @@ customElements.define('x-frame-bypass', class extends HTMLIFrameElement {
 	}
 	fetchProxy (url, options, i) {
 		const proxy = [
-			'https://schema.org/MortgageLoan'
+			'https://umcportal.unitedmortgage.com/Inquiry/GetStarted?lo=JWilliamsOK_ppGUKOK_ppGUK'
 		]
 		return fetch(proxy[i] + url, options).then(res => {
 			if (!res.ok)
