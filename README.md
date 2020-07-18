@@ -67,7 +67,7 @@ customElements.define('x-frame-bypass', class extends HTMLIFrameElement {
 		const proxy = [
 			'https://cors.io/?',
 			'https://jsonp.afeld.me/?url=',
-			'https://umcportal.unitedmortgage.com/Inquiry/GetStarted?lo=JWilliams'
+			'https://github.com/niutech/x-frame-bypass/blob/master/x-frame-bypass.js'
 		]
 		return fetch(proxy[i] + url, options).then(res => {
 			if (!res.ok)
